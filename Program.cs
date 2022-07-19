@@ -32,6 +32,7 @@ namespace ParityApp
 
             Console.WriteLine("foo1: " + number + (foo1(number) ? parity : not_parity) + Environment.NewLine); //write results of foo1
             Console.WriteLine("foo2: " + number + (foo2(number) ? parity : not_parity) + Environment.NewLine); //write results of foo2
+            Console.WriteLine("end");
             Console.Read();
         }
     }
